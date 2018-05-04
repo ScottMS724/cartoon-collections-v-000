@@ -16,7 +16,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if (array & cheese_types).join == nil 
+  if (array & cheese_types).join
     return (array & cheese_types.join)
   else 
     return (array & cheese_types).join
