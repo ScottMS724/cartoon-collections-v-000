@@ -11,8 +11,7 @@ def summon_captain_planet(planeteerArray)
 end
 
 def long_planeteer_calls(callsArray)
-  callsArray.any? do |i| 
-    i.length > 4
+  callsArray.any? { |i| i.length > 4 }
   end
 end
 
