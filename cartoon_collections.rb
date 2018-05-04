@@ -17,4 +17,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   sharedCheese = (array & cheese_types).join
+  if sharedCheese.length == 0 
+    nil 
+  else 
+    sharedChese
 end
