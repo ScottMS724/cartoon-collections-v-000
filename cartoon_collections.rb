@@ -14,6 +14,7 @@ def long_planeteer_calls(callsArray)
   callsArray.find do |i| 
     i.length > 4
   end
+end
 
 def find_the_cheese
   # the array below is here to help
