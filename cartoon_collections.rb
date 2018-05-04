@@ -21,4 +21,5 @@ def find_the_cheese(array)
     nil 
   else 
     sharedChese
+  end
 end
