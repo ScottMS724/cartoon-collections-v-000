@@ -6,6 +6,7 @@ end
 
 def summon_captain_planet(planeteerArray)
   planeteerArray.collect do 
+    
 end
 
 def long_planeteer_calls
