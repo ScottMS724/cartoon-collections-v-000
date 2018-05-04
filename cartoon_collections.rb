@@ -13,11 +13,11 @@ end
 def long_planeteer_calls(callsArray)
   callsArray.find do |i|
     i.length > 4 
-  end
-  if i 
-    return true 
-  else 
-    return false 
+    if i 
+      return true 
+    else 
+      return false 
+    end
   end
 end
 
