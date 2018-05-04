@@ -5,7 +5,7 @@ def roll_call_dwarves(arrayDwarfNames)
 end
 
 def summon_captain_planet(planeteerArray)
-  
+  planeteerArray.collect
 end
 
 def long_planeteer_calls
