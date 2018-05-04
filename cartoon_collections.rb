@@ -20,6 +20,6 @@ def find_the_cheese(array)
   if sharedCheese.length == 0 
     nil 
   else 
-    sharedChese
+    sharedCheese
   end
 end
