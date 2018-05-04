@@ -11,13 +11,7 @@ def summon_captain_planet(planeteerArray)
 end
 
 def long_planeteer_calls(callsArray)
-  callsArray.find do |i|
-    if i.length > 4 
-      return true 
-    end
-    return false
-  end
-end
+  callsArray.find do |i| 
 
 def find_the_cheese
   # the array below is here to help
