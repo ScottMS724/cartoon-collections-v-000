@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteerArray)
   planeteerArray.collect do |element|
-    puts "#{element}"
+    puts "#{element}.capitalize"
     
 end
 
