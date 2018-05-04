@@ -19,6 +19,6 @@ def find_the_cheese(array)
   if (array & cheese_types).join
     return (array & cheese_types.join)
   else 
-    return (array & cheese_types).join
+    return nil
   end
 end
