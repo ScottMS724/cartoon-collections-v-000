@@ -18,6 +18,7 @@ def long_planeteer_calls(callsArray)
     return true 
   else 
     return false 
+  end
 end
 
 def find_the_cheese
