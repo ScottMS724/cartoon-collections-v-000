@@ -11,7 +11,8 @@ def summon_captain_planet(planeteerArray)
 end
 
 def long_planeteer_calls(callsArray)
-  
+  callsArray.each |i|
+    if i.length > 
 end
 
 def find_the_cheese
